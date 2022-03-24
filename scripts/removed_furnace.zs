@@ -1,0 +1,1 @@
+mods.unidict.removalByKind.get("Furnace").remove("ingot", ["ore"]);

@@ -1,0 +1,21 @@
+//This file was created via CT-GUI! Editing it is not advised! <- shut i know what im doing 
+//Don't touch me!
+//#Remove
+//Don't touch me!
+//#Add
+recipes.addShapeless(<contenttweaker:carbondust>, [<immersiveengineering:tool:0>.anyDamage().transformDamage(),<ore:fuelCoke>,<ore:coal>|<ore:charcoal>]);
+recipes.addShaped(<tcomplement:high_oven_controller>, [[<tcomplement:scorched_block:3>, <ore:blockAlubrass>, <tcomplement:scorched_block:3>],[<ore:blockAlumite>, <tconstruct:smeltery_controller>, <ore:blockAlumite>], [<tcomplement:scorched_block:3>, <ore:blockAlubrass>, <tcomplement:scorched_block:3>]]);
+recipes.addShaped(<tconstruct:seared_tank:2>, [[<ore:ingotBrickSeared>, <ore:blockGlass>, <ore:ingotBrickSeared>],[<thermalfoundation:material:162>, <ore:blockGlass>, <thermalfoundation:material:162>], [<ore:ingotBrickSeared>, <ore:blockGlass>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<tconstruct:seared_tank:1>, [[<ore:ingotBrickSeared>, <thermalfoundation:material:162>, <ore:ingotBrickSeared>],[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:ingotBrickSeared>, <thermalfoundation:material:162>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<tconstruct:seared_tank>, [[<ore:ingotBrickSeared>, <thermalfoundation:material:162>, <ore:ingotBrickSeared>],[<ore:ingotBrickSeared>, <ore:blockGlass>, <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, <thermalfoundation:material:162>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<immersiveengineering:tool>, [[null, <ore:ingotBrick>, <ore:clay>],[null, <ore:stickWood>, <ore:ingotBrick>], [<ore:stickWood>, null, null]]);
+recipes.addShaped(<minecraft:furnace>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],[<ore:cobblestone>, <minecraft:flint>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+recipes.addShaped(<infilter:infilter_block_infilter>, [[<cyclicmagic:crystallized_obsidian>, <mekanism:controlcircuit>, <cyclicmagic:crystallized_obsidian>],[<adpother:diamond_filter>, <adpother:diamond_filter>, <adpother:diamond_filter>], [<cyclicmagic:crystallized_obsidian>, <mekanism:controlcircuit>, <cyclicmagic:crystallized_obsidian>]]);
+recipes.addShaped(<oeintegration:excavatemodifier>, [[<ore:ingotBronze>, <ore:ingotKnightslime>, <ore:ingotBronze>],[<ore:ingotManyullyn>, <ore:blockSteel>, <ore:ingotManyullyn>], [<ore:ingotBronze>, <ore:ingotKnightslime>, <ore:ingotBronze>]]);
+recipes.addShapedMirrored(<tconstruct:pattern>, [[<minecraft:wooden_axe>.anyDamage().transformDamage(5) | <minecraft:stone_axe>.anyDamage().transformDamage(5) | <tconstruct:hatchet>.anyDamage().transformDamage(5), <ore:plankWood>, null],[<ore:plankWood>, <ore:stickWood>, null], [null, null, null]]);
+recipes.addShaped(<tcomplement:melter:8>, [[<ore:ingotBrickSeared>, <ore:blockGlass>, <ore:ingotBrickSeared>],[<ore:plankTreatedWood>, <ore:fuelCoke>, <ore:plankTreatedWood>], [<ore:ingotBrickSeared>, <minecraft:furnace>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<tcomplement:melter>, [[<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>],[<ore:ingotBrickSeared>, <ore:blockGlass>, <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, <ore:plankTreatedWood>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<tcomplement:alloy_tank>, [[<ore:ingotBrickSeared>, <ore:gearStone>, <ore:ingotBrickSeared>],[<tconstruct:seared_tank:*>, <tconstruct:large_plate>.withTag({Material: "copper"}).onlyWithTag({Material: "copper"}), <tconstruct:seared_tank:*>], [<ore:ingotBrickSeared>, <ore:gearStone>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<tconstruct:smeltery_controller>, [[<ore:blockSeared>, <tconstruct:large_plate>.withTag({Material: "iron"}).onlyWithTag({Material: "iron"}), <ore:blockSeared>],[<tconstruct:large_plate>.withTag({Material: "bronze"}).onlyWithTag({Material: "bronze"}), <tcomplement:alloy_tank>, <tconstruct:large_plate>.withTag({Material: "bronze"}).onlyWithTag({Material: "bronze"})], [<ore:blockSeared>, <tconstruct:large_plate>.withTag({Material: "iron"}).onlyWithTag({Material: "iron"}), <ore:blockSeared>]]);
+recipes.addShaped(<tconstruct:smeltery_controller>, [[<ore:blockSeared>, <ore:plateIron>, <ore:blockSeared>],[<ore:plateBronze>, <tcomplement:alloy_tank>, <ore:plateBronze>], [<ore:blockSeared>, <ore:plateIron>, <ore:blockSeared>]]);
+//File End
